@@ -1,0 +1,13 @@
+entity Persona {
+	nombre String required,
+	edad Integer required
+
+}
+entity Pareja{
+	p1 Persona required,
+	p2 Persona required,
+}
+relationship OneToOne{
+	Persona{pareja} to Pareja{p1(nombre)},
+	Persona{pareja} to Pareja{p2(nombre)}
+}

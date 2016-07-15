@@ -1,0 +1,23 @@
+{
+    "socialnetworkApp": {
+        "persona" : {
+            "home": {
+                "title": "Personas",
+                "createLabel": "Créer un nouveau Persona",
+                "createOrEditLabel": "Créer ou éditer un Persona"
+            },
+            "created": "Un nouveau Persona a été créé avec l'identifiant {{ param }}",
+            "updated": "Le Persona avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le Persona avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Persona {{ id }} ?"
+            },
+            "detail": {
+                "title": "Persona"
+            },
+            "nombre": "Nombre",
+            "edad": "Edad"
+        }
+    }
+}
+

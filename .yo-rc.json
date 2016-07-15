@@ -1,0 +1,22 @@
+{
+  "generator-jhipster": {
+    "baseName": "socialnetwork",
+    "packageName": "org.soc.socialnetwork",
+    "packageFolder": "org/soc/socialnetwork",
+    "authenticationType": "session",
+    "hibernateCache": "no",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "no",
+    "useSass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "enableTranslation": true,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "b1cbfa2e0049ddfddb8009764b3e420e320a5f5b",
+    "testFrameworks": []
+  }
+}
